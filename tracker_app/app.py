@@ -31,7 +31,7 @@ def skill_levels():
 
     skills = requests.get(f"{BACKEND_API_URL}/skills").json()
     projects = requests.get(f"{BACKEND_API_URL}/projects").json()
-    usage_count = requests.get(f"{BACKEND_API_URL}/skill-usage").json()
+    usage_count = requests.get(f"{BACKEND_API_URL}/skill-usage").json()  
 
     matches = []
     skill_project_map = {}
