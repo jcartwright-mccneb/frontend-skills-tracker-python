@@ -15,7 +15,7 @@ def home():
         "skills": skills,
         "projects": projects
     }
-    return render_template('index.html', tracker=tracker)
+    return render_template('index.html', tracker=tracker)  
 
 @app.route('/health')
 def health():
